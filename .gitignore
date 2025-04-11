@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.env
+*.log
+*.sqlite3
+*.pyc
+*.pyo
+
+# Django
+db.sqlite3
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+env.bak/
+env/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Migrations (optional if you don’t want to track them)
+**/migrations/*.py
+!**/migrations/__init__.py
